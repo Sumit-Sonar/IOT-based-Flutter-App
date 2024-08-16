@@ -12,7 +12,7 @@
     <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
 
     <application
-        android:label="DJ EC"
+        android:label="BSMART"
         android:name="${applicationName}"
         android:icon="@drawable/applogo">
         <activity

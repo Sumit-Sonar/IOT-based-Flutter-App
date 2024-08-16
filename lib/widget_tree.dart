@@ -1,12 +1,12 @@
-import 'package:djec_app/admin%20pages/userpageorbuttons.dart';
-import 'package:djec_app/auth.dart';
+import 'package:djec_app/admin%20pages/adminuserpageorbuttons.dart';
+import 'package:djec_app/firebaseAuth/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'admin pages/login_signup.dart'; // Import the admin page
-import 'package:djec_app/admin pages/bluetooth.dart'; // Import the Bluetooth page
+import 'package:djec_app/bluetooth/bluetooth.dart'; // Import the Bluetooth page
 import 'package:djec_app/welcome_screen.dart';
 import 'package:flutter/material.dart';
-import 'user pages/userAuth.dart';
+import 'firebaseAuth/userAuth.dart';
 
 class WidgetTree extends StatefulWidget {
   const WidgetTree({super.key});

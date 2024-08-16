@@ -1,8 +1,8 @@
-import 'package:djec_app/admin pages/bluetooth.dart';
-import 'package:djec_app/admin%20pages/userpageorbuttons.dart';
+import 'package:djec_app/bluetooth/bluetooth.dart';
+import 'package:djec_app/admin%20pages/adminuserpageorbuttons.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'userAuth.dart';
+import '../firebaseAuth/userAuth.dart';
 
 class UserLoginPage extends StatefulWidget {
   const UserLoginPage({Key? key});

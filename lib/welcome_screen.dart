@@ -136,31 +136,31 @@ class WelcomeUi extends StatelessWidget {
           content: RichText(
             text: TextSpan(
               children: [
-                TextSpan(
+               const TextSpan(
                   text:
                       "Electrical panel manufacturers specializing in power control centers (PCC) and motor control centers (MCC).\n\n",
                   style: TextStyle(
                       color: Colors.black, fontWeight: FontWeight.bold),
                 ),
-                TextSpan(
+               const TextSpan(
                   text: "Location: ",
                   style: TextStyle(
                       fontWeight: FontWeight.bold, color: Colors.black),
                 ),
-                TextSpan(
+               const TextSpan(
                   text: "Valiv, Vasai, India, Maharashtra.\n\n",
                   style: TextStyle(color: Colors.black),
                 ),
-                TextSpan(
+               const TextSpan(
                   text: "Email: ",
                   style: TextStyle(
                       fontWeight: FontWeight.bold, color: Colors.black),
                 ),
-                TextSpan(
+               const TextSpan(
                   text: "info@djelectrocontrols.com\n\n",
                   style: TextStyle(color: Colors.black),
                 ),
-                TextSpan(
+               const TextSpan(
                   text: "Website: ",
                   style: TextStyle(
                       fontWeight: FontWeight.bold, color: Colors.black),
@@ -174,7 +174,7 @@ class WelcomeUi extends StatelessWidget {
                       ..onTap = () {
                         launch("https://djelectrocontrols.com");
                       }),
-                TextSpan(
+                const TextSpan(
                   text: "Developer: ",
                   style: TextStyle(
                       fontWeight: FontWeight.bold, color: Colors.black),
